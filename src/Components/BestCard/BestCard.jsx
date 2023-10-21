@@ -11,7 +11,7 @@ const BestCard = () => {
         </div>
         <div>
           <img
-            src="/src/assets/recommended-img.png"
+            src="https://i.ibb.co/SsjxzfG/recommended-img.png"
             className="lg:-mt-24 lg:py-0 py-5 inline"
             alt=""
           />

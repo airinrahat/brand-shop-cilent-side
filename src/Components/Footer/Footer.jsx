@@ -63,7 +63,8 @@ const Footer = () => {
             <a className="link link-hover">Best sales</a>
           </nav>
           <nav>
-            <header className="footer-title text-xl">COMPANY</header>
+            <header className="footer-title  text-xl">COMPANY</header>
+
             <a className="link link-hover">My account</a>
             <a className="link link-hover">My Cart</a>
             <a className="link link-hover">Identity</a>

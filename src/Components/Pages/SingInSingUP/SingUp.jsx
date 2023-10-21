@@ -114,9 +114,11 @@ const SingUp = () => {
             <div className="flex flex-col justify-center p-8 md:p-14">
               <p className="text-red-600 text-center">{error}</p>
               <p className="text-green-600">{success}</p>
-              <span className="mb-3 text-4xl font-bold">Welcome back</span>
-              <span className="font-light text-gray-400 mb-8">
-                Welcome back! Please enter your details
+              <span className="mb-3 text-4xl text-center font-bold">
+                Please Register
+              </span>
+              <span className="font-light text-center text-gray-400 mb-8">
+                Hey! Enter your details to get create account
               </span>
               <div className="py-4">
                 <span className="mb-2 text-md">Name</span>
@@ -200,7 +202,7 @@ const SingUp = () => {
             {/* right side  */}
             <div className="relative">
               <img
-                src="/src/assets/image.jpg"
+                src="https://i.ibb.co/NZT370F/image.jpg"
                 alt="img"
                 className="w-[400px] h-full hidden rounded-r-2xl md:block object-cover"
               />

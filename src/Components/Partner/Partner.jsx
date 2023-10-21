@@ -41,62 +41,98 @@ const Partner = () => {
             <div className="row g-2 text-center">
               <SwiperSlide>
                 <div className="col-md-3 col-sm-4">
-                  <img src="/src/assets/company-logo-01.png" alt="" />
+                  <img
+                    src="https://i.ibb.co/ZSXXW4F/company-logo-01.png"
+                    alt=""
+                  />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-md-3 col-sm-4">
-                  <img src="/src/assets/company-logo-02.png" alt="" />
+                  <img
+                    src="https://i.ibb.co/bb2PBVw/company-logo-02.png"
+                    alt=""
+                  />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-md-3 col-sm-4">
-                  <img src="/src/assets/company-logo-03.png" alt="" />
+                  <img
+                    src="https://i.ibb.co/DK1bfh4/company-logo-03.png"
+                    alt=""
+                  />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-md-3 col-sm-4">
-                  <img src="/src/assets/company-logo-04.png" alt="" />
+                  <img
+                    src="https://i.ibb.co/dJfSJXb/company-logo-04.png"
+                    alt=""
+                  />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-md-3 col-sm-4">
-                  <img src="/src/assets/company-logo-05.png" alt="" />
+                  <img
+                    src="https://i.ibb.co/h9XmGQK/company-logo-05.png"
+                    alt=""
+                  />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-md-3 col-sm-4">
-                  <img src="/src/assets/company-logo-06.png" alt="" />
+                  <img
+                    src="https://i.ibb.co/zhYJd1c/company-logo-06.png"
+                    alt=""
+                  />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-md-3 col-sm-4">
-                  <img src="/src/assets/company-logo-01.png" alt="" />
+                  <img
+                    src="https://i.ibb.co/ZSXXW4F/company-logo-01.png"
+                    alt=""
+                  />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-md-3 col-sm-4">
-                  <img src="/src/assets/company-logo-02.png" alt="" />
+                  <img
+                    src="https://i.ibb.co/bb2PBVw/company-logo-02.png"
+                    alt=""
+                  />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-md-3 col-sm-4">
-                  <img src="/src/assets/company-logo-03.png" alt="" />
+                  <img
+                    src="https://i.ibb.co/DK1bfh4/company-logo-03.png"
+                    alt=""
+                  />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-md-3 col-sm-4">
-                  <img src="/src/assets/company-logo-04.png" alt="" />
+                  <img
+                    src="https://i.ibb.co/dJfSJXb/company-logo-04.png"
+                    alt=""
+                  />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-md-3 col-sm-4">
-                  <img src="/src/assets/company-logo-05.png" alt="" />
+                  <img
+                    src="https://i.ibb.co/h9XmGQK/company-logo-05.png"
+                    alt=""
+                  />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="col-md-3 col-sm-4">
-                  <img src="/src/assets/company-logo-06.png" alt="" />
+                  <img
+                    src="https://i.ibb.co/zhYJd1c/company-logo-06.png"
+                    alt=""
+                  />
                 </div>
               </SwiperSlide>
             </div>

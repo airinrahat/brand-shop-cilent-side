@@ -21,7 +21,8 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/src/assets/pexels-mike-bird-1335077.jpg");
+    /* url("/src/assets/pexels-mike-bird-1335077.jpg"); */
+      url("https://i.ibb.co/CWzfJ9h/pexels-mike-bird-1335077.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,7 +34,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/src/assets/pexels-adrian-dorobantu-2127733.jpg");
+    url("https://i.ibb.co/mGttZ5L/pexels-adrian-dorobantu-2127733.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,7 +46,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/src/assets/pexels-tyler-clemmensen-8375817\ \(1\).jpg");
+    url("https://i.ibb.co/BL9CSp6/pexels-tyler-clemmensen-8375817-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,7 +58,7 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/src/assets/pexels-nordic-overdrive-627678.jpg");
+    url("https://i.ibb.co/443JHWX/pexels-nordic-overdrive-627678.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
