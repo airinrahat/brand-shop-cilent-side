@@ -16,6 +16,7 @@ import UpdateCard from "./Components/UpdateCard/UpdateCard";
 import BtnDetails from "./Components/BtnDetaills/BtnDetails";
 import AuthProvider from "./providers/AuthProvider";
 import Blog from "./Components/Pages/Blogs/Blog";
+import PrivateRoute from "./Routes/PrivateRoute";
 // import Blog from "./Components/Pages/Blog/Blog";
 
 const router = createBrowserRouter([
@@ -30,7 +31,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/addProduct",
-        element: <AddProduct></AddProduct>,
+        element: (
+          <PrivateRoute>
+            <AddProduct></AddProduct>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/myCart",
@@ -58,7 +63,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/updateCard/:id",
-        element: <UpdateCard></UpdateCard>,
+        element: (
+          <PrivateRoute>
+            <UpdateCard></UpdateCard>
+          </PrivateRoute>
+        ),
         loader: ({ params }) =>
           fetch(`http://localhost:5000/cart/${params.id}`),
       },
@@ -69,7 +78,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/btnDtails/:id",
-        element: <BtnDetails></BtnDetails>,
+        element: (
+          <PrivateRoute>
+            <BtnDetails></BtnDetails>
+          </PrivateRoute>
+        ),
         loader: ({ params }) =>
           fetch(`http://localhost:5000/cart/${params.id}`),
       },
