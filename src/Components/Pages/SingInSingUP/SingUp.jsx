@@ -31,16 +31,16 @@ const SingUp = () => {
     // validate
     setError("");
     setSuccess("");
-    // if (password.length < 6) {
-    //   setError("Please add at least 6 characters in your password.");
-    //   return;
-    // } else if (!/(?=.*[A-Z])/.test(password)) {
-    //   setError("Please add at least one uppercase.");
-    //   return;
-    // } else if (!/(?=.*[!@#$&*])/.test(password)) {
-    //   setError("Please add a special character.");
-    //   return;
-    // }
+    if (password.length < 6) {
+      setError("Please add at least 6 characters in your password.");
+      return;
+    } else if (!/(?=.*[A-Z])/.test(password)) {
+      setError("Please add at least one uppercase.");
+      return;
+    } else if (!/(?=.*[!@#$&*])/.test(password)) {
+      setError("Please add a special character.");
+      return;
+    }
 
     createUser(email, password)
       .then((result) => {

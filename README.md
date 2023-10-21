@@ -11,3 +11,6 @@
 ## Client-side live link
 
 • https://brand-new-shop.web.app/
+
+server side:https://github.com/programming-hero-web-course-4/b8a10-brandshop-server-side-airinrahat
+clinet side:https:https://github.com/programming-hero-web-course-4/b8a10-brandshop-client-side-airinrahat
