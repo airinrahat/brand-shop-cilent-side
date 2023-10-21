@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/2FkmnJp/img-04.jpg",
+    "img2": "https://i.ibb.co/ZSr7ff3/toyota.jpg",
+    "img3": "https://i.ibb.co/DGhWDn2/img-06.jpg",
+    "name": "Toyota",
+    "brandName": "Toyota Motors",
+    "price": "$25,000",
+    "rating": 4.5,
+    "detailsButton": "View Details",
+    "updateButton": "Update",
+    "type": "Automotive"
+  },
+
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/TTtv8Hg/img-01.jpg",
+    "img3": "https://i.ibb.co/DGhWDn2/img-06.jpg",
+    "name": "Ford",
+    "brandName": "Ford Motors",
+    "price": "$28,500",
+    "rating": 4.2,
+    "detailsButton": "View Details",
+    "updateButton": "Update",
+    "type": "Automotive"
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/yXVGcFt/img-02.jpg",
+    "img3": "https://i.ibb.co/DGhWDn2/img-06.jpg",
+    "name": "BMW",
+    "brandName": "BMW",
+    "price": "$35,000",
+    "rating": 4.8,
+    "detailsButton": "View Details",
+    "updateButton": "Update",
+    "type": "Automotive"
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/3B9w1qR/img-03.jpg",
+    "name": "Mercedes-Benz",
+    "brandName": "Mercedes-Benz",
+    "price": "$42,000",
+    "rating": 4.7,
+    "detailsButton": "View Details",
+    "updateButton": "Update",
+    "type": "Automotive"
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/G3sVpbn/img-05.jpg",
+    "name": "Honda",
+    "brandName": "Honda Motors",
+    "price": "$22,500",
+    "rating": 4.3,
+    "detailsButton": "View Details",
+    "updateButton": "Update",
+    "type": "Automotive"
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/DGhWDn2/img-06.jpg",
+    "name": "Tesla",
+    "brandName": "Tesla, Inc.",
+    "price": "N/A",
+    "rating": null,
+    "detailsButton": "View Details",
+    "updateButton": "Update",
+    "type": "Automotive"
+  }
+]

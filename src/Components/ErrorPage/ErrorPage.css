@@ -1,0 +1,13 @@
+.oops {
+  font-size: 230px;
+  margin: 0;
+  font-weight: 900;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
