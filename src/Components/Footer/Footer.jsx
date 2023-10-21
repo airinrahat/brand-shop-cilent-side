@@ -10,8 +10,8 @@ import {
 const Footer = () => {
   return (
     <div>
-      <footer className=" bg-[#000C21] py-5 ">
-        <div className="footer py-10  text-white max-w-screen-xl mx-auto ">
+      <footer className=" bg-[#000C21] py-5 md:px-0 px-10">
+        <div className="lg:footer lg:text-start text-center py-10  text-white max-w-screen-xl mx-auto ">
           <nav>
             <header className="footer-title text-4xl font-bold text-[#EA001E]">
               Automotive

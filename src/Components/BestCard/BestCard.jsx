@@ -3,8 +3,8 @@ import React from "react";
 
 const BestCard = () => {
   return (
-    <div className="bg-[#000C21] text-white ">
-      <div className="flex  justify-around items-center max-w-screen-xl mx-auto">
+    <div className="bg-[#000C21] text-white lg:p-0 p-10">
+      <div className="lg:flex lg:text-start text-center justify-around items-center max-w-screen-xl mx-auto">
         <div>
           <p className="text-xl text-[#EA001E]  mb-2">Recommended Car</p>
           <h2 className="text-4xl font-bold ">Not Sure, Which Car is Best?</h2>
@@ -12,7 +12,7 @@ const BestCard = () => {
         <div>
           <img
             src="/src/assets/recommended-img.png"
-            className="-mt-24"
+            className="lg:-mt-24 lg:py-0 py-5 inline"
             alt=""
           />
         </div>

@@ -54,7 +54,7 @@ const UpdateCard = () => {
   };
 
   return (
-    <div className="text-4xl max-w-screen-xl mx-auto">
+    <div className="text-4xl max-w-screen-xl mx-auto lg:px-0 px-10">
       <h2 className="text-4xl font-bold text-center mt-10">Update Card</h2>
       <form onSubmit={handleUpdateProduct} className="my-10">
         {/* form name and quantity row */}

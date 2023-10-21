@@ -41,7 +41,7 @@ const CardDetails = () => {
 
       <div className="max-w-screen-xl mx-auto">
         {filter.length ? (
-          <div className="grid lg:grid-cols-4  grid-cols-1 mt-20 mb-10 gap-8">
+          <div className="grid lg:grid-cols-4  grid-cols-1 mt-20 mb-10 gap-8 lg:px-0 px-10">
             {filter.slice(0, 4).map((item) => (
               <BrandCart key={item._id} item={item}></BrandCart>
             ))}

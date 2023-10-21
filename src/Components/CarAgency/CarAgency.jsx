@@ -3,9 +3,9 @@ import React from "react";
 
 const CarAgency = () => {
   return (
-    <div className="max-w-screen-xl mx-auto my-5 py-16">
-      <p className="text-2xl text-center">Best Car Agency</p>
-      <h2 className="text-5xl font-bold text-center mb-10 mt-2">
+    <div className="max-w-screen-xl mx-auto my-5 py-16 lg:px-0 px-10">
+      <p className="lg:text-2xl text-xl text-center">Best Car Agency</p>
+      <h2 className="lg:text-5xl text-3xl font-bold text-center mb-10 mt-2">
         Why Only Choose Drivco
       </h2>
       <div className="grid lg:grid-cols-3 gap-10  grid-cols-1">

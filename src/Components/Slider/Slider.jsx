@@ -27,8 +27,8 @@ const Slider = () => {
       >
         <SwiperSlide>
           <div className="banner-con banner-bg-1 flex justify-center items-center text-white ">
-            <div className="banner-box md:w-2/4">
-              <h1 className="text-7xl color-red font-semibold font-serif uppercase">
+            <div className="banner-box lg:w-2/4 w-3/4">
+              <h1 className="lg:text-7xl text-5xl color-red font-semibold font-serif uppercase">
                 Lamborghini Aventador LP700-4
               </h1>
 
@@ -47,8 +47,8 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="banner-con banner-bg-2 flex justify-center items-center text-white ">
-            <div className="banner-box md:w-2/4">
-              <h1 className="text-7xl color-red font-semibold font-serif uppercase">
+            <div className="banner-box lg:w-2/4 w-3/4">
+              <h1 className="lg:text-7xl text-5xl color-red font-semibold font-serif uppercase">
                 Lamborghini Aventador LP700-4
               </h1>
 
@@ -67,8 +67,8 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="banner-con banner-bg-3 flex justify-center items-center text-white ">
-            <div className="banner-box md:w-2/4">
-              <h1 className="text-7xl color-red font-semibold font-serif uppercase">
+            <div className="banner-box lg:w-2/4 w-3/4">
+              <h1 className="lg:text-7xl text-5xl color-red font-semibold font-serif uppercase">
                 Lamborghini Aventador LP700-4
               </h1>
 
@@ -87,8 +87,8 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="banner-con banner-bg-4 flex justify-center items-center text-white ">
-            <div className="banner-box md:w-2/4">
-              <h1 className="text-7xl color-red font-semibold font-serif uppercase">
+            <div className="banner-box lg:w-2/4 w-3/4">
+              <h1 className="lg:text-7xl text-5xl color-red font-semibold font-serif uppercase">
                 Lamborghini Aventador LP700-4
               </h1>
 

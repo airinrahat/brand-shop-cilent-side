@@ -54,7 +54,7 @@ const AddProduct = () => {
 
   return (
     <div>
-      <div className="max-w-screen-xl mx-auto mt-5">
+      <div className="max-w-screen-xl mx-auto mt-5 px-10 lg:px-0">
         <h2 className="text-center text-4xl">Add Product</h2>
 
         <form onSubmit={handleAddProduct} className="my-10">

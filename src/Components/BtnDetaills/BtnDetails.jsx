@@ -52,7 +52,7 @@ const BtnDetails = () => {
 
   return (
     <div>
-      <div className="max-w-sm mx-auto my-8 rounded overflow-hidden shadow-lg ">
+      <div className="max-w-sm mx-auto my-8 rounded overflow-hidden shadow-lg lg:px-0 px-10">
         <img className="w-[100%] h-52" src={photo} alt="" />
         <div className="p-3">
           <h3 className="text-xl mb-1">
