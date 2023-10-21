@@ -10,7 +10,6 @@ import ReactSwitch from "react-switch";
 const Navbar = ({ onChange, checked, theme }) => {
   const { user, logOut } = useContext(AuthContext);
   console.log(user);
-
   const handleLogOut = () => {
     logOut()
       .then()
