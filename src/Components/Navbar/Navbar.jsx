@@ -1,11 +1,13 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
 import React, { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaCar } from "react-icons/fa6";
 import { AuthContext } from "../../providers/AuthProvider";
+import ReactSwitch from "react-switch";
 
-const Navbar = () => {
+const Navbar = ({ onChange, checked, theme }) => {
   const { user, logOut } = useContext(AuthContext);
   console.log(user);
 
@@ -18,7 +20,7 @@ const Navbar = () => {
   const links = (
     <>
       <li>
-        <NavLink to="/" className="mr-1">
+        <NavLink to="/" className="ml-3">
           Home
         </NavLink>
       </li>
@@ -37,8 +39,8 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-[#000C21]">
-        <div className="md:navbar flex justify-between items-center mx-auto max-w-screen-xl bg-[#000C21] text-white">
+      <nav className="bg-[#000C21] py-2">
+        <div className="md:navbar flex items-center justify-between mx-auto max-w-screen-xl bg-[#000C21] text-white">
           <div className=" py-3">
             <div className="dropdown z-10">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -65,18 +67,25 @@ const Navbar = () => {
                 {links}
               </ul>
             </div>
-            <Link className="btn btn-ghost  text-4xl uppercase font-bold">
-              <FaCar className="text-[#EA001E]"></FaCar> Automotive
+
+            <Link className="btn btn-ghost p-0  text-4xl uppercase font-bold">
+              <FaCar className="text-[#EA001E]"></FaCar>{" "}
+              <img
+                src="https://i.ibb.co/9t3TnyC/2014-mazda-cx-5-pic-1160917971215308174-1024x768.jpg"
+                alt="logo"
+                className="w-60 h-12 rounded-md"
+              />
             </Link>
           </div>
-          {/* <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 py-3 text-xl">{links}</ul>
-          </div> */}
 
-          <div className="flex justify-center items-center gap-5  md:pb-0">
+          <div className="flex justify-center items-center gap-3  md:pb-0">
             <div>
-              <ul className="menu menu-horizontal px-1 py-1 ml-2 text-lg font-semibold">
+              <ul className="menu menu-horizontal px-1 py-1 text-lg font-semibold">
                 {links}
+                <div className="switch flex justify-center gap-2 mt-2 ml-3">
+                  <ReactSwitch onChange={onChange} checked={checked} />
+                  <label className="m-0">{theme}</label>
+                </div>
               </ul>
             </div>
 

@@ -9,7 +9,7 @@ const CarAgency = () => {
         Why Only Choose Drivco
       </h2>
       <div className="grid lg:grid-cols-3 gap-10  grid-cols-1">
-        <div className="card w-[100%] bg-base-100 shadow-xl border">
+        <div className="card glass w-full shadow-xl border">
           <div className="card-body p-10">
             <h2 className="card-title text-xl font-bold ">
               {" "}
@@ -22,7 +22,7 @@ const CarAgency = () => {
             </p>
           </div>
         </div>
-        <div className="card w-[100%] bg-base-100 shadow-xl border">
+        <div className="card glass w-full shadow-xl border">
           <div className="card-body p-10">
             <h2 className="card-title text-xl font-bold py-2 ">
               {" "}
@@ -36,7 +36,7 @@ const CarAgency = () => {
             </p>
           </div>
         </div>
-        <div className="card w-[100%] bg-base-100 shadow-xl border">
+        <div className="card glass w-full shadow-xl border">
           <div className="card-body p-10">
             <h2 className="card-title text-xl font-bold py-2 ">
               {" "}

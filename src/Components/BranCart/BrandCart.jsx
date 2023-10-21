@@ -2,20 +2,17 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Link } from "react-router-dom";
+import { Rating } from "@smastrom/react-rating";
+import "@smastrom/react-rating/style.css";
 
 const BrandCart = ({ item }) => {
   const { _id, name, brand, description, category, price, rating, photo } =
     item;
 
-  //   const handleUpdate = (_id) => {
-  //     console.log(_id);
-  //   };
-
   return (
     <div>
       <div>
         <div className="rounded h-full overflow-hidden shadow-lg ">
-          {/* <img class="w-full" src="/img/card-top.jpg" alt="Sunset in the mountains"> */}
           <img className="w-[100%] h-52" src={photo} alt="" />
           <div className="p-3">
             <h3 className="text-xl mb-1">
@@ -31,7 +28,8 @@ const BrandCart = ({ item }) => {
               <b>Price</b> : {price}
             </p>
             <p>
-              <b>Rating</b> : {rating}★
+              <b>Rating</b> :
+              <Rating style={{ maxWidth: 100 }} value={rating} readOnly />
             </p>
 
             <p className="text-gray-700 text-base">

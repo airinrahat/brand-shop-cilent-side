@@ -6,7 +6,7 @@ const Card = () => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
-    fetch("car.json")
+    fetch("http://localhost:5000/allbrand")
       .then((res) => res.json())
       .then((data) => setCards(data));
   }, []);
@@ -14,7 +14,6 @@ const Card = () => {
   return (
     <div className="my-10 py-20 mx-auto max-w-screen-xl">
       <h2 className="text-center text-6xl font-bold">
-        {" "}
         Our Vehicles Brand : {cards.length}
       </h2>
       <p className="text-center mx-auto mb-5 w-2/4 text-xl mt-3">

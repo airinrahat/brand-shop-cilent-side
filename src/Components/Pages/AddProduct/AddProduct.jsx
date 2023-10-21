@@ -62,7 +62,9 @@ const AddProduct = () => {
           <div className="md:flex gap-5 mb-5">
             <div className="form-control md:w-1/2">
               <label className="label">
-                <span className="label-text text-2xl font-bold"> Name</span>
+                <span className="label-text text-2xl font-bold text-zinc-600">
+                  Name
+                </span>
               </label>
               <label className="input-group">
                 <input
@@ -76,7 +78,7 @@ const AddProduct = () => {
 
             <div className="form-control md:w-1/2">
               <label className="label">
-                <span className="label-text text-2xl font-bold">
+                <span className="label-text text-2xl font-bold text-zinc-600">
                   Brand Name
                 </span>
               </label>
@@ -94,7 +96,9 @@ const AddProduct = () => {
           <div className="md:flex gap-5 mb-5">
             <div className="form-control md:w-1/2">
               <label className="label">
-                <span className="label-text text-2xl font-bold">Category</span>
+                <span className="label-text text-2xl font-bold text-zinc-600">
+                  Category
+                </span>
               </label>
               <label className="input-group">
                 <input
@@ -108,7 +112,9 @@ const AddProduct = () => {
 
             <div className="form-control md:w-1/2">
               <label className="label">
-                <span className="label-text text-2xl font-bold">Price</span>
+                <span className="label-text text-2xl font-bold text-zinc-600">
+                  Price
+                </span>
               </label>
               <label className="input-group">
                 <input
@@ -125,7 +131,9 @@ const AddProduct = () => {
           <div className="md:flex gap-5 mb-5">
             <div className="form-control md:w-1/2 ">
               <label className="label">
-                <span className="label-text text-2xl font-bold">Rating</span>
+                <span className="label-text text-2xl font-bold text-zinc-600">
+                  Rating
+                </span>
               </label>
               <label className="input-group">
                 <input
@@ -139,7 +147,9 @@ const AddProduct = () => {
 
             <div className="form-control md:w-1/2 ">
               <label className="label">
-                <span className="label-text text-2xl font-bold">Photo URL</span>
+                <span className="label-text text-2xl font-bold text-zinc-600">
+                  Photo URL
+                </span>
               </label>
               <label className="input-group">
                 <input
@@ -155,7 +165,7 @@ const AddProduct = () => {
           <div className="mb-5">
             <div className="form-control w-full">
               <label className="label">
-                <span className="label-text text-2xl font-bold">
+                <span className="label-text text-2xl font-bold text-zinc-600">
                   Short description
                 </span>
               </label>

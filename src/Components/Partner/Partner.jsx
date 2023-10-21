@@ -8,7 +8,7 @@ import "swiper/css";
 import "./Partner.css";
 const Partner = () => {
   return (
-    <div className="bg-slate-50">
+    <div>
       <div className="max-w-screen-xl mx-auto partner my-15 py-9">
         <div className="container">
           <Swiper

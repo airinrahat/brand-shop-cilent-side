@@ -1,10 +1,14 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link, useLoaderData } from "react-router-dom";
 import Swal from "sweetalert2";
+import { AuthContext } from "../../../providers/AuthProvider";
 
 const MyCart = () => {
+  const { user } = useContext(AuthContext);
+
   // const addToCarts = useLoaderData();
   const [Carts, setCarts] = useState([]);
 
@@ -55,7 +59,7 @@ const MyCart = () => {
       <div className="overflow-x-auto">
         <table className="table">
           <thead>
-            <tr className="text-2xl font-bold text-black">
+            <tr className="text-2xl font-bold text-zinc-600">
               <th>Car-Img</th>
               <th>Name</th>
               <th>Sub-Category</th>

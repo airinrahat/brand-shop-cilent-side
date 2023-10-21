@@ -1,9 +1,15 @@
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useContext } from "react";
 import { Link, useLoaderData } from "react-router-dom";
 import Swal from "sweetalert2";
+import { AuthContext } from "../../providers/AuthProvider";
+import { Rating } from "@smastrom/react-rating";
+import "@smastrom/react-rating/style.css";
 
 const BtnDetails = () => {
+  const { user } = useContext(AuthContext);
+  console.log(user.email);
+
   const MyCard = useLoaderData();
   const { _id, name, brand, description, category, price, rating, photo } =
     MyCard;
@@ -12,7 +18,6 @@ const BtnDetails = () => {
     event.preventDefault();
 
     const addToCart = {
-      addToCartId: MyCard._id,
       name: MyCard.name,
       brand: MyCard.brand,
       description: MyCard.description,
@@ -20,6 +25,7 @@ const BtnDetails = () => {
       price: MyCard.price,
       rating: MyCard.rating,
       photo: MyCard.photo,
+      email: user.email,
     };
     console.log(addToCart);
 
@@ -62,7 +68,8 @@ const BtnDetails = () => {
             <b>Price</b> : {price}
           </p>
           <p>
-            <b>Rating</b> : {rating}★
+            <b>Rating</b> :
+            <Rating style={{ maxWidth: 100 }} value={rating} readOnly />
           </p>
 
           <p className="text-gray-700 text-base">

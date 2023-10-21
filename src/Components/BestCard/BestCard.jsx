@@ -10,7 +10,11 @@ const BestCard = () => {
           <h2 className="text-4xl font-bold ">Not Sure, Which Car is Best?</h2>
         </div>
         <div>
-          <img src="/src/assets/recommended-img.png" alt="" />
+          <img
+            src="/src/assets/recommended-img.png"
+            className="-mt-24"
+            alt=""
+          />
         </div>
 
         <div>

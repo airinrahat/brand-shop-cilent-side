@@ -12,7 +12,7 @@ const CardDetails = () => {
   const { name } = useParams();
   console.log(name);
   const filter = cards.filter((card) => card.brand == name);
-  console.log(filter);
+  console.log(filter.map((item) => item._id));
 
   // console.log(cards);
 
@@ -40,15 +40,24 @@ const CardDetails = () => {
       </div>
 
       <div className="max-w-screen-xl mx-auto">
-        {filter ? (
+        {filter.length ? (
           <div className="grid lg:grid-cols-4  grid-cols-1 mt-20 mb-10 gap-8">
             {filter.slice(0, 4).map((item) => (
               <BrandCart key={item._id} item={item}></BrandCart>
             ))}
           </div>
         ) : (
-          <div className=" my-20 ">
-            <p className="text-2xl text-center font-bold"> No Data Found </p>
+          <div className=" my-20">
+            <div className="text-4xl text-center font-bold">
+              <span>No Data Found!!!</span>
+              <span>
+                <img
+                  src="https://i.ibb.co/FHRthX9/cloud.png"
+                  className="h-10 w-10 ml-3 inline"
+                  alt=""
+                />
+              </span>
+            </div>
           </div>
         )}
       </div>

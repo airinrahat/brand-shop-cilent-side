@@ -17,7 +17,6 @@ import BtnDetails from "./Components/BtnDetaills/BtnDetails";
 import AuthProvider from "./providers/AuthProvider";
 import Blog from "./Components/Pages/Blogs/Blog";
 import PrivateRoute from "./Routes/PrivateRoute";
-// import Blog from "./Components/Pages/Blog/Blog";
 
 const router = createBrowserRouter([
   {
@@ -78,7 +77,7 @@ const router = createBrowserRouter([
       {
         path: "/detailsCard/:id",
         element: <ShowCardDetails></ShowCardDetails>,
-        loader: () => fetch("/public/car.json"),
+        loader: () => fetch("http://localhost:5000/allbrand"),
       },
       {
         path: "/btnDtails/:id",
