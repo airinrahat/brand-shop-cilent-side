@@ -6,5 +6,6 @@
 • CRUD whit using MongoDB.<br/>
 • Brand details card added in my project<br/>
 • Slider added in my project<br/>
+• Private Route add in projet<br/>
 
 ## Client-side live link
