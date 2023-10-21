@@ -40,7 +40,7 @@ const Navbar = ({ onChange, checked, theme }) => {
   return (
     <div>
       <nav className="bg-[#000C21] py-2">
-        <div className="md:navbar flex items-center justify-between mx-auto max-w-screen-xl bg-[#000C21] text-white">
+        <div className="lg:flex items-center justify-between mx-auto max-w-screen-xl bg-[#000C21] text-white">
           <div className=" py-3">
             <div className="dropdown z-10">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -78,7 +78,7 @@ const Navbar = ({ onChange, checked, theme }) => {
             </Link>
           </div>
 
-          <div className="flex justify-center items-center gap-3  md:pb-0">
+          <div className="lg:flex justify-center items-center gap-3  md:pb-0">
             <div>
               <ul className="menu menu-horizontal px-1 py-1 text-lg font-semibold">
                 {links}
@@ -105,7 +105,7 @@ const Navbar = ({ onChange, checked, theme }) => {
               <button
                 onClick={handleLogOut}
                 variant="secondary"
-                className='text-lg font-bold bg-[#EA001E] text-white py-1.5 px-6 rounded-md"'
+                className='text-lg font-bold bg-[#EA001E] flex justify-center text-white py-1.5 px-6 rounded-md"'
               >
                 Logout
               </button>
