@@ -32,7 +32,7 @@ const UpdateCard = () => {
     };
     console.log(updateProduct);
 
-    fetch(`http://localhost:5000/cart/${_id}`, {
+    fetch(`https://brand-shop-server-side-beige.vercel.app/cart/${_id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

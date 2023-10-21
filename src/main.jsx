@@ -43,7 +43,8 @@ const router = createBrowserRouter([
             <MyCart></MyCart>
           </PrivateRoute>
         ),
-        loader: () => fetch("http://localhost:5000/addtocart"),
+        loader: () =>
+          fetch("https://brand-shop-server-side-beige.vercel.app/addtocart"),
       },
 
       {
@@ -62,7 +63,8 @@ const router = createBrowserRouter([
       {
         path: "/card/:name",
         element: <CardDetails></CardDetails>,
-        loader: () => fetch("http://localhost:5000/cart"),
+        loader: () =>
+          fetch("https://brand-shop-server-side-beige.vercel.app/cart"),
       },
       {
         path: "/updateCard/:id",
@@ -72,12 +74,15 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/cart/${params.id}`),
+          fetch(
+            `https://brand-shop-server-side-beige.vercel.app/cart/${params.id}`
+          ),
       },
       {
         path: "/detailsCard/:id",
         element: <ShowCardDetails></ShowCardDetails>,
-        loader: () => fetch("http://localhost:5000/allbrand"),
+        loader: () =>
+          fetch("https://brand-shop-server-side-beige.vercel.app/allbrand"),
       },
       {
         path: "/btnDtails/:id",
@@ -87,7 +92,9 @@ const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/cart/${params.id}`),
+          fetch(
+            `https://brand-shop-server-side-beige.vercel.app/cart/${params.id}`
+          ),
       },
     ],
   },

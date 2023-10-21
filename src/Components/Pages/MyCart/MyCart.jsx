@@ -14,7 +14,7 @@ const MyCart = () => {
 
   console.log(Carts);
 
-  const url = "http://localhost:5000/addtocart";
+  const url = "https://brand-shop-server-side-beige.vercel.app/addtocart";
   useEffect(() => {
     fetch(url)
       .then((res) => res.json())
@@ -34,9 +34,12 @@ const MyCart = () => {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`http://localhost:5000/addtocart/${_id}`, {
-          method: "DELETE",
-        })
+        fetch(
+          `https://brand-shop-server-side-beige.vercel.app/addtocart/${_id}`,
+          {
+            method: "DELETE",
+          }
+        )
           .then((res) => res.json())
           .then((data) => {
             console.log(data);

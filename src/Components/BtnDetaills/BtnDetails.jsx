@@ -29,7 +29,7 @@ const BtnDetails = () => {
     };
     console.log(addToCart);
 
-    fetch("http://localhost:5000/addtocart", {
+    fetch("https://brand-shop-server-side-beige.vercel.app/addtocart", {
       method: "POST",
       headers: {
         "content-type": "application/json",

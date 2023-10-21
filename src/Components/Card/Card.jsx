@@ -6,7 +6,7 @@ const Card = () => {
   const [cards, setCards] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/allbrand")
+    fetch("https://brand-shop-server-side-beige.vercel.app/allbrand")
       .then((res) => res.json())
       .then((data) => setCards(data));
   }, []);
