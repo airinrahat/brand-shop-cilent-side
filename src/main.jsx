@@ -15,6 +15,7 @@ import ShowCardDetails from "./Components/ShowCardDetails/ShowCardDetails";
 import UpdateCard from "./Components/UpdateCard/UpdateCard";
 import BtnDetails from "./Components/BtnDetaills/BtnDetails";
 import AuthProvider from "./providers/AuthProvider";
+import Blog from "./Components/Pages/Blogs/Blog";
 // import Blog from "./Components/Pages/Blog/Blog";
 
 const router = createBrowserRouter([
@@ -36,15 +37,14 @@ const router = createBrowserRouter([
         element: <MyCart></MyCart>,
         loader: () => fetch("http://localhost:5000/addtocart"),
       },
-      // {
-      //   path: "/myCart/:id",
-      //   element: <MyCart></MyCart>,
-      //   loader: ({ params }) =>
-      //     fetch(`http://localhost:5000/addtocart/${params.id}`),
-      // },
+
       {
         path: "/login",
         element: <SingIn></SingIn>,
+      },
+      {
+        path: "/blog",
+        element: <Blog></Blog>,
       },
       {
         path: "/singup",
@@ -73,10 +73,6 @@ const router = createBrowserRouter([
         loader: ({ params }) =>
           fetch(`http://localhost:5000/cart/${params.id}`),
       },
-      // {
-      //   path: "/blog",
-      //   element: <Blog></Blog>,
-      // },
     ],
   },
 ]);
