@@ -13,7 +13,6 @@ const MyCart = () => {
   const [Carts, setCarts] = useState([]);
 
   console.log(Carts);
-  //deploy
 
   // const url = "https://brand-shop-server-side-beige.vercel.app/addtocart";
   // useEffect(() => {
@@ -22,7 +21,7 @@ const MyCart = () => {
   //     .then((data) => setCarts(data));
   // }, [url]);
 
-  const urls = `https://brand-shop-server-side-beige.vercel.app/addtocart/?email=${user.email}`;
+  const urls = `https://brand-shop-server-side-beige.vercel.app/addtocart?email=${user.email}`;
   useEffect(() => {
     fetch(urls)
       .then((res) => res.json())
