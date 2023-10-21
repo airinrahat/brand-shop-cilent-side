@@ -33,16 +33,15 @@ const Blog = () => {
             id="panel1bh-header"
           >
             <Typography sx={{ width: "33%", flexShrink: 0 }}>
-              What is axios in react ?
+              1. What is meant by CRUD operations?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              What is Axios? (A little bit of history) Axios is used to
-              communicate with the backend and it also supports the Promise API
-              that is native to JS ES6. It is a library which is used to make
-              requests to an API, return data from the API, and then do things
-              with that data in our React application.
+              CRUD is the acronym for CREATE, READ, UPDATE and DELETE. These
+              terms describe the four essential operations for creating and
+              managing persistent data elements, mainly in relational and NoSQL
+              databases
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -56,16 +55,20 @@ const Blog = () => {
             id="panel2bh-header"
           >
             <Typography sx={{ width: "33%", flexShrink: 0 }}>
-              What is jwt authentication in react js ?
+              2.What are the CRUD operations in MongoDB using Express?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              JWT, or JSON Web Token, is a web protocol used to share security
-              information between client and a server. In a standard web
-              application, private API requests contain JWT that is generated as
-              a result of the verification of the user information, thus
-              allowing these users to reach protected data and access services.
+              Build Crud API with Node. js, Express, and MongoDB 1.Create (POST)
+              - Make something.
+              <br />
+              2.Read (GET)- Get something.
+              <br />
+              3. Update (PUT) - Change something.
+              <br />
+              4. Delete (DELETE)- Remove something.
+              <br />
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -79,15 +82,15 @@ const Blog = () => {
             id="panel3bh-header"
           >
             <Typography sx={{ width: "33%", flexShrink: 0 }}>
-              What is react hook form ?
+              3.What is a collection in MongoDB? ?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              React Hook Form is a library that helps you validate forms in
-              React. It is a minimal library without any other dependencies,
-              while being performant and straightforward to use, requiring
-              developers to write fewer lines of code than other form libraries.
+              A collection is a grouping of MongoDB documents. Documents within
+              a collection can have different fields. A collection is the
+              equivalent of a table in a relational database system. A
+              collection exists within a single database.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -101,15 +104,16 @@ const Blog = () => {
             id="panel4bh-header"
           >
             <Typography sx={{ width: "33%", flexShrink: 0 }}>
-              npm in react.
+              4.How many collections can MongoDB have?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
             <Typography>
-              NPM, the Node package manager is used for managing and sharing the
-              packages for either React or Angular. NPM will be installed along
-              with Nodejs. Node. js can be downloaded and installed from the
-              official NodeJs website.
+              In general, we recommend limiting collections to 10,000 per
+              replica set. When users begin exceeding 10,000 collections, they
+              typically see decreases in performance. To avoid this
+              anti-pattern, examine your database and remove unnecessary
+              collections.
             </Typography>
           </AccordionDetails>
         </Accordion>
