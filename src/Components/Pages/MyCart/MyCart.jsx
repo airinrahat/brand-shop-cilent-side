@@ -13,13 +13,21 @@ const MyCart = () => {
   const [Carts, setCarts] = useState([]);
 
   console.log(Carts);
+  //deploy
 
-  const url = "https://brand-shop-server-side-beige.vercel.app/addtocart";
+  // const url = "https://brand-shop-server-side-beige.vercel.app/addtocart";
+  // useEffect(() => {
+  //   fetch(url)
+  //     .then((res) => res.json())
+  //     .then((data) => setCarts(data));
+  // }, [url]);
+
+  const urls = `https://brand-shop-server-side-beige.vercel.app/addtocart/?email=${user.email}`;
   useEffect(() => {
-    fetch(url)
+    fetch(urls)
       .then((res) => res.json())
       .then((data) => setCarts(data));
-  }, [url]);
+  }, [urls]);
 
   const handleDelete = (_id) => {
     console.log(_id);
