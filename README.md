@@ -21,6 +21,10 @@ This project utilizes the following technologies and libraries:
 • https://brand-new-shop.web.app/
 <br>
 
-server side github link:https://github.com/programming-hero-web-course-4/b8a10-brandshop-server-side-airinrahat
+<!-- server side github link:https://github.com/programming-hero-web-course-4/b8a10-brandshop-server-side-airinrahat -->
+
+server side github link:https://github.com/airinrahat/brand-shop-server-side
 <br>
-clinet side github link:https:https://github.com/programming-hero-web-course-4/b8a10-brandshop-client-side-airinrahat
+clinet side github link:https:https://github.com/airinrahat/brand-shop-cilent-side?tab=readme-ov-file
+
+<!-- clinet side github link:https:https://github.com/programming-hero-web-course-4/b8a10-brandshop-client-side-airinrahat -->
